@@ -4,38 +4,38 @@
 ![Scikit-learn](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-yellow)
 
-## Project Overview (Tổng quan)
-Dự án này áp dụng các kỹ thuật **Khai phá dữ liệu (Data Mining)** và **Học máy (Machine Learning)** để phân tích hành vi của thị trường chứng khoán. 
+## Project Overview
+This project applies **Data Mining** and **Machine Learning** techniques to analyze stock market behavior.
 
-Mục tiêu là sử dụng thuật toán **K-Means Clustering** để phân nhóm các ngày giao dịch có đặc điểm tương đồng dựa trên các chỉ số OHLCV (Open, High, Low, Close, Volume), từ đó nhận diện các mẫu hình biến động giá (Pattern Recognition) để hỗ trợ ra quyết định đầu tư.
+The goal is to use **K-Means Clustering** to group trading days with similar characteristics based on OHLCV (Open, High, Low, Close, Volume) data. This enables **pattern recognition** in price movements to support investment decision-making.
 
 ## Tech Stack & Skills
-* **Language:** Python.
-* **Data Analysis:** Pandas, NumPy.
-* **Machine Learning:** Scikit-learn (K-Means Clustering).
-* **Visualization:** Matplotlib.
+* **Language:** Python  
+* **Data Analysis:** Pandas, NumPy  
+* **Machine Learning:** Scikit-learn (K-Means Clustering)  
+* **Visualization:** Matplotlib  
 
-## Implementation Details (Quy trình thực hiện)
-1.  **Data Processing:** Làm sạch và chuẩn hóa dữ liệu giao dịch chứng khoán.
-2.  **Feature Engineering:** Lựa chọn các đặc trưng quan trọng (Giá mở cửa, đóng cửa, khối lượng...).
-3.  **Clustering Modeling:**
-    * Sử dụng thuật toán K-Means để phân loại thị trường thành 3 nhóm hành vi (Clusters).
-    * Xác định tâm cụm (Cluster Centers) để hiểu đặc tính của từng nhóm.
-4.  **Visualization:** Trực quan hóa kết quả phân cụm để thấy rõ sự phân tách giữa các xu hướng.
+## Implementation Details
+1. **Data Processing:** Clean and standardize stock market trading data.  
+2. **Feature Engineering:** Select key features (Open, Close, High, Low prices, Volume, etc.).  
+3. **Clustering Modeling:**  
+    * Apply K-Means algorithm to classify the market into 3 behavioral clusters.  
+    * Determine cluster centers to understand the characteristics of each group.  
+4. **Visualization:** Visualize clustering results to clearly see the separation between trends.  
 
-## Key Findings (Kết quả phân tích)
-Mô hình đã phân tách dữ liệu thành 3 cụm hành vi đặc trưng (Ví dụ):
-* **Cluster 0:** Biến động thấp, khối lượng giao dịch trung bình (Giai đoạn tích lũy).
-* **Cluster 1:** Giá tăng mạnh kèm khối lượng lớn (Xu hướng Bullish).
-* **Cluster 2:** Biến động giá mạnh nhưng khối lượng thấp (Giai đoạn rủi ro/điều chỉnh).
+## Key Findings
+The model identified 3 distinct behavioral clusters (for example):  
+* **Cluster 0:** Low volatility, average trading volume (Accumulation phase)  
+* **Cluster 1:** Strong price increase with high volume (Bullish trend)  
+* **Cluster 2:** High price volatility but low volume (Risk/Correction phase)  
 
 ![Cluster Chart](images/clustering_result.png)
 
-
 ## 👥 Contributors
-* Tran Thi Truc Xinh
-* Dao Viet Anh
-* Nguyen Thi Nha Phuong
+* Tran Thi Truc Xinh  
+* Dao Viet Anh  
+* Nguyen Thi Nha Phuong  
+
 ## 📬 Contact
-* **Author:** Tran Thi Truc Xinh
-* **LinkedIn:** www.linkedin.com/in/tran-thi-truc-xinh-972072279
+* **Author:** Tran Thi Truc Xinh  
+* **LinkedIn:** https://www.linkedin.com/in/tranthitrucxinh/
