@@ -14,6 +14,9 @@ An in-depth Exploratory Data Analysis (EDA) project aimed at identifying histori
 * **Visualization:** Seaborn, Matplotlib, Plotly (for interactive charts)
 
 ## Exploratory Insights
+<img width="882" height="548" alt="clustering_result" src="https://github.com/user-attachments/assets/2eed1ad7-fad6-4ac4-aab5-42fe3e31fdbb" />
+<img width="1484" height="590" alt="stock_price_trend" src="https://github.com/user-attachments/assets/cea15078-39b3-4f3b-a207-e7672f4666f9" />
+<img width="1488" height="489" alt="trading_volume" src="https://github.com/user-attachments/assets/f5d33eed-68cd-442a-81e5-03373c9859db" />
 
 
 ## Repository Structure
